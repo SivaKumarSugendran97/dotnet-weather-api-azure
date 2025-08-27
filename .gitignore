@@ -1,0 +1,49 @@
+# .NET Core build outputs
+bin/
+obj/
+out/
+publish/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio temporary files
+.vs/
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Azure deployment files
+*.zip
+deploy.zip
+
+# Application Insights
+ApplicationInsights.config
+
+# Environment files
+.env
+*.env
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Azure CLI
+.azure/
+
+# Local development
+launchSettings.json
