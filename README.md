@@ -145,3 +145,4 @@ Azure/
 ├── azure-config.env                  # Generated configuration file
 └── README.md                         # This file
 ```
+# GitHub Actions deployment test
