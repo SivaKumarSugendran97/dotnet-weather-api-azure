@@ -56,10 +56,17 @@ jobs:
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: ./publish-webapp
         
+    - name: Debug Function App info
+      if: github.ref == 'refs/heads/main'
+      run: |
+        echo "Function App Name: ${{ env.AZURE_FUNCTIONAPP_NAME }}"
+        echo "Package Path: ./publish-functions"
+        ls -la ./publish-functions/ || echo "publish-functions directory not found"
+        
     - name: Deploy to Azure Function App
       if: github.ref == 'refs/heads/main'
-      uses: azure/webapps-deploy@v2
+      uses: Azure/functions-action@v1
       with:
         app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
-        publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
         package: ./publish-functions
+        publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
