@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi", "src\WeatherApi\WeatherApi.csproj", "{12E1E314-DF7F-9776-9D92-833AD1F5885A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageFunctions", "src\MessageFunctions\MessageFunctions.csproj", "{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +31,25 @@ Global
 		{12E1E314-DF7F-9776-9D92-833AD1F5885A}.Release|x64.Build.0 = Release|Any CPU
 		{12E1E314-DF7F-9776-9D92-833AD1F5885A}.Release|x86.ActiveCfg = Release|Any CPU
 		{12E1E314-DF7F-9776-9D92-833AD1F5885A}.Release|x86.Build.0 = Release|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Debug|x64.Build.0 = Debug|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Debug|x86.Build.0 = Debug|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Release|x64.ActiveCfg = Release|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Release|x64.Build.0 = Release|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Release|x86.ActiveCfg = Release|Any CPU
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{12E1E314-DF7F-9776-9D92-833AD1F5885A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{0E4BA295-DEEC-4EEE-8A64-C8F1397C4513} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E7277B5-F514-42BB-B9A9-129D99B815F6}
